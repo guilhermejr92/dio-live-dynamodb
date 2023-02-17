@@ -3,30 +3,30 @@
         {
             "PutRequest": {
                 "Item": {
-                  "Artist": {"S": "Charlie Brown Jr."},
-                  "SongTitle": {"S": "Vícios e virtudes"},
-                  "AlbumTitle": {"S": "Acústico MTV: Charlie Brown Jr."},
-                  "SongYear": {"S": "2003"}
+                  "Artist": {"S": "Avenged Sevenfold"},
+                  "SongTitle": {"S": "So Far Away"},
+                  "AlbumTitle": {"S": "Nightmare"},
+                  "SongYear": {"S": "2010"}
                 }
             }
         },
         {
             "PutRequest": {
                 "Item": {
-                  "Artist": {"S": "Charlie Brown Jr."},
-                  "SongTitle": {"S": "Zóio de lula"},
-                  "AlbumTitle": {"S": "Acústico MTV: Charlie Brown Jr."},
-                  "SongYear": {"S": "2003"}
+                  "Artist": {"S": "Avenged Sevenfold"},
+                  "SongTitle": {"S": "Nightmare"},
+                  "AlbumTitle": {"S": "Nightmare"},
+                  "SongYear": {"S": "2010"}
                 }
             }
         },
         {
             "PutRequest": {
                 "Item": {
-                  "Artist": {"S": "Charlie Brown Jr."},
-                  "SongTitle": {"S": "Só por uma noite"},
-                  "AlbumTitle": {"S": "Acústico MTV: Charlie Brown Jr. Tour"},
-                  "SongYear": {"S": "2003"}
+                  "Artist": {"S": "Avenged Sevenfold"},
+                  "SongTitle": {"S": "Save Me"},
+                  "AlbumTitle": {"S": "Nightmare Tour"},
+                  "SongYear": {"S": "2010"}
                 }
             }
         }

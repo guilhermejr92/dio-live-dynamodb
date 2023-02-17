@@ -81,7 +81,7 @@ aws dynamodb update-table \
 aws dynamodb query \
     --table-name Music \
     --key-condition-expression "Artist = :artist" \
-    --expression-attribute-values  '{":artist":{"S":"Charlie Brown Jr."}}'
+    --expression-attribute-values  '{":artist":{"S":"Avenged Sevenfold"}}'
 ```
 - Pesquisar item por artista e título da música
 
@@ -99,7 +99,7 @@ aws dynamodb query \
     --table-name Music \
     --index-name AlbumTitle-index \
     --key-condition-expression "AlbumTitle = :name" \
-    --expression-attribute-values  '{":name":{"S":"Acústico MTV: Charlie Brown Jr."}}'
+    --expression-attribute-values  '{":name":{"S":"Nightmare"}}'
 ```
 
 - Pesquisa pelo index secundário baseado no nome do artista e no título do álbum
@@ -109,7 +109,7 @@ aws dynamodb query \
     --table-name Music \
     --index-name ArtistAlbumTitle-index \
     --key-condition-expression "Artist = :v_artist and AlbumTitle = :v_title" \
-    --expression-attribute-values  '{":v_artist":{"S":"Charlie Brown Jr."},":v_title":{"S":"Acústico MTV: Charlie Brown Jr."} }'
+    --expression-attribute-values  '{":v_artist":{"S":"Avenged Sevenfold"},":v_title":{"S":"Nightmare"} }'
 ```
 
 - Pesquisa pelo index secundário baseado no título da música e no ano
@@ -119,5 +119,5 @@ aws dynamodb query \
     --table-name Music \
     --index-name SongTitleYear-index \
     --key-condition-expression "SongTitle = :v_song and SongYear = :v_year" \
-    --expression-attribute-values  '{":v_song":{"S":"Vícios e virtudes"},":v_year":{"S":"2003"} }'
+    --expression-attribute-values  '{":v_song":{"S":"Vícios e virtudes"},":v_year":{"S":"2010"} }'
 ```
